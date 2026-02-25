@@ -1,0 +1,5 @@
+# Ignore Angular / Node caches
+node_modules/
+**/.angular/cache/
+dist/
+.DS_Store
