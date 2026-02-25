@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="2.js" defer></script>
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="container">
+        <div class="brand">ToDo List</div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h1 class="title">ToDo List</h1>
+
+      <form id="todoForm" class="form">
+
+  <input id="taskInput" type="text" placeholder="New Task" />
+
+  <button type="submit" class="addBtn">
+    Add
+  </button>
+
+  <button type="button" id="deleteAll" class="deleteAllBtn">
+    Delete All
+  </button>
+
+  <button type="button" id="hideBtn" class="hideBtn">
+    Hide
+  </button>
+
+</form>
+
+        <ul id="todoList" class="list"></ul>
+      </section>
+    </main>
+
+  </body>
+</html>
